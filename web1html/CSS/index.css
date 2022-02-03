@@ -1,0 +1,68 @@
+p {
+    background-color: rgb(191, 50, 50)
+
+}
+
+p {
+    font-size: medium;
+}
+
+p{color: blue;}
+
+
+h1 {
+    color: aqua;
+    
+
+}
+
+h2{
+    color: khaki;
+}
+
+h3{
+    color: lavender;
+
+}
+
+.resaltado {
+        color: yellow;
+}
+
+body {
+    background-image: url(panda.jpg);
+    background-color: grey ;
+}
+ul{
+    list-style-type: square;
+    color: hotpink;
+    background-color: indigo;
+}
+ol{
+    color: hotpink;
+    background-color: indigo;
+}
+
+.mayuscula{
+    text-transform: uppercase;
+}
+
+.texto_derecha{
+    text-align: right;
+}
+
+.texto_izquierda{
+    text-align: left;
+}
+
+.texto_centro{
+    text-align: center;
+}
+
+.texto_justificado{
+    text-align: justify;
+}
+
+.italica{
+    font-style: italic;
+}
