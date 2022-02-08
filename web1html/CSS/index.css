@@ -13,7 +13,6 @@ p{color: blue;}
 h1 {
     color: aqua;
     
-
 }
 
 h2{
@@ -22,6 +21,14 @@ h2{
 
 h3{
     color: lavender;
+    width: 800px;
+    height: 350px;
+    margin: 50px;
+    padding: 20px;
+    border: 10px;
+    border-style: dashed;
+    border-color: red;
+    background-color: rgb(32, 87, 32);
 
 }
 
@@ -65,4 +72,23 @@ ol{
 
 .italica{
     font-style: italic;
+}
+
+.contenedor{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.izquierda{
+    background-color: blue;
+    margin: 20px;
+    width: 500px;
+
+}
+
+.derecha{
+    background-color: aqua;
+    margin: 20px;
+    width: 200px;
 }
