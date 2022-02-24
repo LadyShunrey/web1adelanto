@@ -1,0 +1,41 @@
+  body {
+    background: #234772;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  h2 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h4 {
+    color: white;
+  }
+  
+  ul {
+    color: white;
+  }
+  
+  .horarios {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .titulo{
+    color: red;
+  }
+
+  .final{
+    text-align: center;
+  }
+
+  .final img{
+    width: 200px;
+    text-align: center;
+  }
