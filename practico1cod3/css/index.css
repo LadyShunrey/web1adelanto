@@ -29,5 +29,8 @@ h3 {
 ol{
     color: blue;
     font-style: italic;
-    padding: 0;
+}
+
+ul{
+    padding: 15px;
 }
