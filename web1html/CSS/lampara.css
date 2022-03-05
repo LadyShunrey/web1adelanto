@@ -1,0 +1,18 @@
+body img{
+    object-fit: scale-down;
+    max-width: 500px;
+}
+
+.botonera{
+    padding-left: 200px;    
+}
+
+.prendido{
+    background-color: lightyellow;
+    color: black;
+}
+
+.apagado{
+    background-color: black;
+    color: white;
+}

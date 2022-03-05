@@ -92,3 +92,9 @@ ol{
     margin: 20px;
     width: 200px;
 }
+
+.para_abajo{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
