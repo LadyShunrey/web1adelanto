@@ -40,7 +40,6 @@ p::first-letter{
 
 body{
     background-color: #f0f6f0;
-    
 }
 
 ol{
@@ -131,13 +130,12 @@ li{
 .contenedor-adopcion{
     display: flex;   
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     background-color:#ADD0AF;
     margin-left: 300px;
     margin-right: 300px;
     align-items: center;
 }
-
 
 .bloque-educacion{
     padding: 50px;
@@ -164,10 +162,6 @@ li{
     display:block;
     text-align: center;
     justify-content: center;
-}
-
-.contenedor-de-noticia img{    
-   
 }
 
 .contenedor-final{
