@@ -98,3 +98,65 @@ ol{
     flex-direction: column;
     background-color: aliceblue;
 }
+
+.color-div{
+    background-color: #64299e;
+    height: 200px;
+    width: 1000px;
+    margin: 20px;
+}
+.color-div2{
+    background-color: #dc7c15;
+    height: 200px;
+    width: 1000px;
+    margin: 20px;
+
+}
+.color-div3{
+    background-color: #4fc372;
+    height: 200px;
+    width: 1000px;
+    margin: 20px;
+
+}
+.color-div4{
+    background-color: #c34fa6;
+    height: 200px;
+    width: 1000px;
+    margin: 20px;
+
+}
+.middle-wraper{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+@media only screen and (min-width: 601px){
+    .color-div{
+        background-color: rgb(218, 14, 14);
+    }
+
+    .middle-wraper{
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .color-div2{
+        width: 60%;
+    }
+
+    .color-div3{
+        width: 40%;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1200px){
+    .color-div{
+        background-color: black;
+    }
+}
