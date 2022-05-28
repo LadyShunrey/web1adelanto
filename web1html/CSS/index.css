@@ -29,7 +29,6 @@ h3{
     border-style: dashed;
     border-color: red;
     background-color: rgb(32, 87, 32);
-
 }
 
 .resaltado {
@@ -40,11 +39,7 @@ body {
     background-image: url(panda.jpg);
     background-color: grey ;
 }
-ul{
-    list-style-type: square;
-    color: hotpink;
-    background-color: indigo;
-}
+
 ol{
     color: hotpink;
     background-color: indigo;
@@ -102,27 +97,27 @@ ol{
 .color-div{
     background-color: #64299e;
     height: 200px;
-    width: 1000px;
+    width: calc (100% - 40px);
     margin: 20px;
 }
 .color-div2{
     background-color: #dc7c15;
     height: 200px;
-    width: 1000px;
+    width: calc (100% - 40px);
     margin: 20px;
 
 }
 .color-div3{
     background-color: #4fc372;
     height: 200px;
-    width: 1000px;
+    width: calc (100% - 40px);
     margin: 20px;
 
 }
 .color-div4{
     background-color: #c34fa6;
     height: 200px;
-    width: 1000px;
+    width: calc (100% - 40px);
     margin: 20px;
 
 }
@@ -132,6 +127,21 @@ ol{
 
 }
 
+.boton_menu{
+    color: aliceblue;
+}
+
+ul{
+    list-style-type: square;
+    color: hotpink;
+    background-color: indigo;
+    display: none;    
+}
+
+ul.menuDesplegado.mostrar{
+    display: flex;
+    flex-direction: column;
+}
 
 @media only screen and (min-width: 601px){
     .color-div{
@@ -150,7 +160,25 @@ ol{
     .color-div3{
         width: 40%;
     }
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .boton_menu{
+        display: none;
+    }
+
+    li{
+        margin: auto 5%;
+    }
+
 }
+
+
+
 
 
 
@@ -160,3 +188,4 @@ ol{
         background-color: black;
     }
 }
+
