@@ -6,7 +6,6 @@ let btn = document.querySelector('#btn-tirar');
 btn.addEventListener('click', tirar)
 
 
-
 function tirar() {
     //genero dos numeros al azar entre 1 y 6
     console.log('el usuario hizo click');
