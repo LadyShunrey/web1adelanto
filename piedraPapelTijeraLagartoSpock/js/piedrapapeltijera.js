@@ -38,5 +38,5 @@ function cambiarImagen{
     let choice = document.querySelector('#choice');
     console.log(choice);
     //laEleccion valor;
-    choice.src="images/" + laEleccion + ".png";
+    //choice.src="images/" + laEleccion + ".png";
 }
