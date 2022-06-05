@@ -4,15 +4,56 @@
     width: 300px;
     padding: 10px;
     background: turquoise;
+    justify-content: center;
+    text-align: center;
 }
 
 .result{
+    display: flex;
     background: wheat;
     padding: 5px;
     margin-top: 10px;
-    height: 30px;
     text-align: center;
     text-transform: uppercase;
     font-size: 28px;
     font-weight: bold;
+}
+
+.eleccion{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    
+}
+
+.image img{
+    max-width: 300px;
+    object-fit: contain;
+}
+
+.contenedor-externo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+body{
+    background-color: brown;
+}
+
+.jugar{
+    display: flex;
+    justify-content: center;
+}
+
+.jugar button{
+    font-size: large;
+    margin: 30px;
+    padding: 0 90px;
 }

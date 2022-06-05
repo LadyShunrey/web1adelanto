@@ -8,11 +8,43 @@
     <title>Piedra Papel Tijera</title>
 </head>
 <body>
-    <div class="container">
-        <button id="boton-play">JUGAR</button>
-        <div class="result">
+    <div class="contenedor-externo">
+        <div class="container">
+            <p>LA ELECCIÓN DE LA MÁQUINA</p>
+            <div class="result eleccion">
 
+            </div>
+            
+            <div class="result image">
+                <img id="result" src="images/0.png" alt="">
+            </div>
         </div>
+        <div class="container">
+            <form action="">
+                <label for=""> ELIJA SU OPCION </label>
+                <select name="" id="choice">
+                    <option value="0">PIEDRA</option>
+                    <option value="1">PAPEL</option>
+                    <option value="2">TIJERA</option>
+                    <option value="3">LAGARTO</option>
+                    <option value="4">SPOCK</option>
+                </select>
+                <button id="boton-elegir"> ELEGIR </button>
+            </form>
+            
+            <div class="result eleccion">
+
+            </div>
+            
+            <div class="result image">
+                <img id="choiceImg" src="images/0.png" alt="">
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="jugar">
+        <button id="boton-play">JUGAR</button>
     </div>
     <script src="js/piedrapapeltijera.js"></script>
 </body>
