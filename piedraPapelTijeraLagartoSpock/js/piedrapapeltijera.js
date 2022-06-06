@@ -52,5 +52,5 @@ function cambiarImagen(){
     console.log("estoy dentro de la funcion cambiar imagen");
     //laEleccion valor;
     choiceImg.src="images/" + this.value + ".png";
-    document.querySelector('.choice-eleccion').innerHTML = this.value;
+    document.querySelector('.choice-eleccion').innerHTML = opciones[this.value];
 }
