@@ -27,16 +27,30 @@ function jugar (){
     let result = document.querySelector('#result');
 
     result.src = "images/" + random + ".png";
+
+    let value = document.querySelector("#choice");
+
+    if (choice == random){
+        empate
+    }
+    else if ((choice == 0 && ((random == 3 )|| (random == 2))) || (choice == 1 && ((random == 0 )|| (random == 4))) || (choice == 2 && ((random == 3 )|| (random == 1))) || (choice == 3 && ((random == 1 )|| (random == 4))) || (choice == 4 && ((random == 0 )|| (random == 2)))){
+        ganaste
+    }
+    else {
+        perdiste
+    }
+
 }
 
+let choice = document.querySelector('#choice');
+let choiceImg = document.querySelector('#choiceImg');
 
-let botonElegir = document.querySelector("#boton-elegir");
-botonElegir.addEventListener('click', cambiarImagen)
 
-function cambiarImagen{
+choice.addEventListener('change', cambiarImagen)
+
+function cambiarImagen(){
     console.log("estoy dentro de la funcion cambiar imagen");
-    let choice = document.querySelector('#choice');
-    console.log(choice);
     //laEleccion valor;
-    //choice.src="images/" + laEleccion + ".png";
+    choiceImg.src="images/" + this.value + ".png";
+    document.querySelector('.choice-eleccion').innerHTML = this.value;
 }
