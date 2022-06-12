@@ -1,0 +1,32 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    align-items: center;
+    padding: 50px;
+}
+
+.botonera{
+    background-color: burlywood;
+    padding: 20px;
+    margin: 20px;
+}
+
+.sorteo{
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+}
+
+.lista-sorteo{
+    background-color: aliceblue;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    list-style: none;
+}
