@@ -49,11 +49,16 @@ body{
 
 .jugar{
     display: flex;
-    justify-content: center;
+    flex-direction:column;
+    align-items: center;    
 }
 
 .jugar button{
     font-size: large;
     margin: 30px;
     padding: 0 90px;
+}
+
+p{
+    font-weight: bolder;
 }
