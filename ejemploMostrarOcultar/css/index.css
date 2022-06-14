@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    text-align: center;
+}
+
+button{
+    margin: 15px;
+}
+
+div{
+    visibility: hidden;
+}
+
+.ver{
+    visibility: visible;
+    color: aliceblue;
+    background-color: blue;
+}
