@@ -1,0 +1,48 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    text-align: center;
+    max-width: 500px;
+    align-items: center;
+    
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 84px;
+    width: 270px;
+    margin: 20px;
+}
+
+.contar{
+    background-color: burlywood;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 300px;
+}
+
+.sorteo{
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+}
+
+.lista-sorteo{
+    background-color: aliceblue;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    list-style: none;
+}
