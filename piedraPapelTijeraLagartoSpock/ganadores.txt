@@ -1,0 +1,11 @@
+rock 0
+paper 1
+scissors 2
+lizard 3
+spock 4
+
+0 le gana a 3 y 2
+1 le gana a 0 y 4
+2 le gana a 1 y 3
+3 le gana a 1 y 4
+4 le gana a 0 y 2
