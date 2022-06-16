@@ -4,18 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contar clicks</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <button onclick="contarClicks();"> Contar Clicks</button>
     <p id="mensaje"> Se hicieron <span id="cuenta" >0</span> clicks </p>
-    <script src="js/contarclicks.js"></script>
+    
     <a href="index.html"> VOLVER AL INDEX</a>
 
-    <div id="resultado"> </div>
+    <div class="noticia" id="resultado"> </div>
+    <button id="mostrar-tabla">MOSTRAR TABLA DE POSICIONES</button>
+    <div id="tabla-de-posiciones"></div>
 
-    <button class="contar-p"> CONTAR LOS P </button>
-    <button> OTRO BOTON </button>
-    <button> OTRO MAS </button>
+    <div>
+        <p>INGRESE UN NUEVO EQUIPO</p>
+        <form id="form">
+            <label for="nombre">NOMBRE</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="puntos">PUNTOS</label>
+            <input type="number" name="puntos" id="puntos">
+            <label for="pj">PJ</label>
+            <input type="number" name="pj" id="pj">
+            <label for="pg">PG</label>
+            <input type="number" name="pg" id="pg">
+            <label for="pe">PE</label>
+            <input type="number" name="pe" id="pe">
+            <label for="pp">PP</label>
+            <input type="number" name="pp" id="pp">
+            <button id="agregar">AGREGAR EQUIPO</button>
+        </form>
+    </div>
+    <button id="contar-p"> CONTAR LOS P </button>
+    <button id="contar-items"> CONTAR ITEMS LISTA </button>
+    <button id="contar-divs"> CONTAR DIVS </button>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam adipisci at eligendi vero suscipit laborum obcaecati repellendus, omnis quae odit laudantium eos voluptatibus, nobis doloremque iusto eum! Suscipit, molestias odio!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci iure nisi expedita excepturi eligendi eos, dignissimos perspiciatis obcaecati exercitationem sint at, repellat porro, blanditiis sapiente tempore reiciendis magni laudantium. Eveniet. </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur voluptates excepturi non in cum minima reiciendis, quo nihil quisquam quis, consectetur quod quibusdam alias ipsam neque assumenda fugiat, at necessitatibus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi hic ipsum odio quae? Quidem error optio facilis iste veniam molestias aut odio dolore, aspernatur, enim ipsa consequuntur sint eos cumque.</p>
+    <ul class="lista-menu">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+    </ul>
+    <div class="noticia"></div>
+    <div class="noticia"></div>
+    <div class="noticia"></div>
+    <div class="noticia"></div>
+    <button id="borrar-ultimo">BORRAR ULTIMO PARRAFO</button>
+    <div id="ejercicio8">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam adipisci at eligendi vero suscipit laborum obcaecati repellendus, omnis quae odit laudantium eos voluptatibus, nobis doloremque iusto eum! Suscipit, molestias odio!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci iure nisi expedita excepturi eligendi eos, dignissimos perspiciatis obcaecati exercitationem sint at, repellat porro, blanditiis sapiente tempore reiciendis magni laudantium. Eveniet. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur voluptates excepturi non in cum minima reiciendis, quo nihil quisquam quis, consectetur quod quibusdam alias ipsam neque assumenda fugiat, at necessitatibus.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi hic ipsum odio quae? Quidem error optio facilis iste veniam molestias aut odio dolore, aspernatur, enim ipsa consequuntur sint eos cumque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam adipisci at eligendi vero suscipit laborum obcaecati repellendus, omnis quae odit laudantium eos voluptatibus, nobis doloremque iusto eum! Suscipit, molestias odio!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci iure nisi expedita excepturi eligendi eos, dignissimos perspiciatis obcaecati exercitationem sint at, repellat porro, blanditiis sapiente tempore reiciendis magni laudantium. Eveniet. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur voluptates excepturi non in cum minima reiciendis, quo nihil quisquam quis, consectetur quod quibusdam alias ipsam neque assumenda fugiat, at necessitatibus.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi hic ipsum odio quae? Quidem error optio facilis iste veniam molestias aut odio dolore, aspernatur, enim ipsa consequuntur sint eos cumque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam adipisci at eligendi vero suscipit laborum obcaecati repellendus, omnis quae odit laudantium eos voluptatibus, nobis doloremque iusto eum! Suscipit, molestias odio!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci iure nisi expedita excepturi eligendi eos, dignissimos perspiciatis obcaecati exercitationem sint at, repellat porro, blanditiis sapiente tempore reiciendis magni laudantium. Eveniet. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur voluptates excepturi non in cum minima reiciendis, quo nihil quisquam quis, consectetur quod quibusdam alias ipsam neque assumenda fugiat, at necessitatibus.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi hic ipsum odio quae? Quidem error optio facilis iste veniam molestias aut odio dolore, aspernatur, enim ipsa consequuntur sint eos cumque.</p>
+    </div>
+
+
+    <script src="js/contarclicks.js"></script>
 </body>
 </html>
